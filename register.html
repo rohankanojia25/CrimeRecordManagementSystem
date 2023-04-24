@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Register Online Comment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+
+<!----- complaint section start ----->
+<section class="register sec-padding" id="register">
+  <div class="table-bg"></div>
+    <div class="container">
+      <div class="row">
+            <div class="section-title">
+                <h2 data-title="Got any Complaint?">Register Your Online Complaint Here</h2>
+            </div>
+        </div>
+      <div class="row min-vh-100">
+          <form action="register.php" method="post">
+              <div id="content1">
+                  <label> First Name </label> <br><br>
+                  <input type="name" name="firstname" placeholder="Enter your full name" class="box"> <br> <br>
+                  <label> Last Name </label> <br><br>
+                  <input type="name" name="lastname" placeholder="Enter your full name" class="box"> <br> <br>
+                  <label> Aadhar Card/ PAN Card (For Security Verification) </label> <br><br>
+                  <input type="name" name="aadhaar" placeholder="Enter your Aadhaar card" class="box" > <br> <br>
+                  <label> Email </label> <br><br>
+                  <input type="email" name="email" placeholder="Enter your email address" class="box" > <br> <br>
+                  <label> Phone number </label> <br><br>
+                  <input type="phone" name="number" placeholder="Enter your phone number" class="box" > <br> <br>
+                  <label> Your complaint Subject </label> <br><br>
+              <div id="option1">
+                <select name="pleaseselect">
+                    <option name="Please Specify Your Complaint Subject"> Please Specify Your Complaint Subject </option>
+                    <option value="1. Robbery/burglary Related Complaint"> 1. Robbery/burglary Related Complaint   </option>
+                    <option value="2. Sexual Harrasment and Violence"> 2. Sexual Harrasment and Violence </option>
+                    <option value="3. Kidnapping Related Complaint"> 3. Kidnapping Related Complaint </option>
+                    <option value="4. Missing person Related Complaint"> 4. Missing person Related Complaint </option>
+                    <option value="5. Family Violence related Complaint"> 5. Family Violence related Complaint </option>
+                    <option value="6. Local Street Fight Related Complaint"> 6. Local Street Fight Related Complaint </option>
+                    <option value="7. Animal Abuse Related Complaint"> 7. Animal Abuse Related Complaint </option>
+                    <option value="8. Others (for Other Type complaints select this)"> 8. Others (for Other Type complaints select this) </option>                                           
+                 </select>
+               </div> 
+            <div class="content2"> <br>
+              <label> Complaint Box </label> <br><br>
+              <textarea name="commentcontent" id="commentcontent" class="box2" placeholder="Enter Your Complaint" ></textarea>
+             </div>
+              <center>
+                  <br>
+                  <input name="submit" type="submit" class="btn btn-default" />
+              </center>
+              </div>
+              
+      </div>
+          </form>    
+    </div>  
+</section> 
+<!----- complaint section end ----->
+
+</body>
+</html>
