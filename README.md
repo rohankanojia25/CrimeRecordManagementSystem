@@ -37,3 +37,5 @@ A website made for public and the police personals, through which the users can 
 
 ![Picture 2](https://user-images.githubusercontent.com/104857302/234092265-18453265-cdfa-4066-bddf-7f95b873216d.png)
 
+
+As of now all the other pages like view complaints, update complaints, will be same as the criminal records page shown above, you just need to connect the PHP files and then to the database, and after some inserting some entries in the database.. you can see the records on these pages also in a table format.
